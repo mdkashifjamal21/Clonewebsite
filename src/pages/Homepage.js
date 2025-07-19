@@ -911,17 +911,45 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* ✅ BRANDS BOX SECTION */}
-      <section className="bg-white py-8 sm:py-10 px-4 sm:px-6 border-t border-b">
-        <div className="flex flex-wrap justify-center gap-8 sm:gap-10 items-center max-w-6xl mx-auto">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Logitech_logo.svg" alt="Logitech" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Dropcam_logo.svg" alt="Dropcam" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/AMD_Logo.svg" alt="AMD" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Bank_Mandiri_logo.svg" alt="Mandiri" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
-        </div>
-      </section>
+     {/* ✅ BRANDS BOX SECTION */}
+<section className="bg-white py-8 sm:py-10 px-4 sm:px-6 border-t border-b">
+  <div className="flex flex-wrap justify-center gap-8 sm:gap-10 items-center max-w-6xl mx-auto">
+    {/* Logitech */}
+    <span className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300 flex items-center">
+      <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="24" fontFamily="Arial, Helvetica, sans-serif" fontSize="25" fill="#999">Logitech</text>
+      </svg>
+    </span>
+
+    {/* Dropcam */}
+    <span className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300 flex items-center">
+      <svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="24" fontFamily="Arial, Helvetica, sans-serif" fontSize="25" fill="#999">Dropcam</text>
+      </svg>
+    </span>
+
+    {/* AMD */}
+    <span className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300 flex items-center">
+      <svg width="75" height="32" viewBox="0 0 75 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="24" fontFamily="Arial Black, Gadget, sans-serif" fontSize="25" fill="#999">AMD</text>
+      </svg>
+    </span>
+
+    {/* Nike */}
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
+
+    {/* Mandiri */}
+    <span className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300 flex items-center">
+      <svg width="105" height="32" viewBox="0 0 105 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="24" fontFamily="Arial, Helvetica, sans-serif" fontSize="25" fill="#999">Mandiri</text>
+      </svg>
+    </span>
+
+    {/* Amazon */}
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" className="h-5 sm:h-6 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transform hover:scale-110 transition-all duration-300" />
+  </div>
+</section>
+
 
    
     </div>
